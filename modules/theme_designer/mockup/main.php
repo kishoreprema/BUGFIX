@@ -26,7 +26,7 @@
     <link rel="stylesheet" media="screen" type="text/css" href="themes/tenant/rightbar.css" />
     <link rel="stylesheet" href="themes/tenant/css/purple.css">
 
-    <script type='text/javascript' src='libs/js/jquery/jquery-1.11.2.min.js'></script>
+    <script type='text/javascript' src='libs/js/jquery/jquery-3.6.1.min.js'></script>
 <script type='text/javascript' src='libs/js/jquery/jquery-edwidgets.js'></script>
 <script type='text/javascript' src='libs/js/jquery/jquery-migrate-1.2.1.js'></script>
 <script type='text/javascript' src='libs/js/jquery/jquery-ui-1.11.4.min.js'></script>

@@ -127,7 +127,7 @@ echo "
     <meta name='keywords' content=''/>
 
     <link href='themes/tenant/css/bootstrap.css' rel='stylesheet' id='bootstrap-css'>
-    <script src='libs/js/jquery/jquery-1.11.2.min.js'></script>
+    <script src='libs/js/jquery/jquery-3.6.1.min.js'></script>
     <script src='themes/tenant/js/bootstrap.min.js'></script>
 
 <style>
