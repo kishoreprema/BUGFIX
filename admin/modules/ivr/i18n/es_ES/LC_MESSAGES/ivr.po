@@ -1,0 +1,424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IssabelPBX - módulo ivr module spanish translation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"PO-Revision-Date: 2014-02-28 09:21+0200\n"
+"Last-Translator: Andrew <andrew.nagy@the159.com>\n"
+"Language-Team: Spanish <http://example.com/projects/freepbx-211/ivr/es/>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 1.9-dev\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Add IVR"
+msgstr "Añadir IVR"
+
+#, php-format
+msgid "Edit IVR: %s"
+msgstr "Modificar IVR: %s"
+
+#, php-format
+msgid "Delete IVR: %s"
+msgstr "Eliminar IVR: %s"
+
+msgid "IVR General Options"
+msgstr "Opciones Generales del IVR"
+
+msgid "IVR Name"
+msgstr "Nombre"
+
+msgid "Name of this IVR."
+msgstr "Elija un nombre para este IVR"
+
+msgid "IVR Description"
+msgstr "Descripción"
+
+msgid "Description of this ivr."
+msgstr "Describa a este IVR"
+
+msgid "IVR Options (DTMF)"
+msgstr "Opciones de IVR (DTMF)"
+
+msgid "Number of times to retry when no DTMF is heard and the IVR choice times out."
+msgstr "Cantidad de veces a reintentar cuando no se detecta DTMF y se alcanza el tiempo máximo de espera."
+
+msgid "None"
+msgstr "Ninguno"
+
+msgid "Announcement"
+msgstr "Anuncio"
+
+msgid "Greeting to be played on entry to the Ivr."
+msgstr "Anuncio a reproducir al ingresar al IVR"
+
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+msgid "Extensions"
+msgstr "Extensiones"
+
+msgid "Completely disabled"
+msgstr "Completamente desactivado"
+
+msgid "Enabled for all extensions on a system"
+msgstr "Activado para todas las extensiones del sistema"
+
+msgid "Direct Dial"
+msgstr "Marcado Directo"
+
+msgid ""
+"Provides options for callers to direct dial an extension. Direct dialing can "
+"be:"
+msgstr ""
+"Da la opción de marcar directo a extensiones. El marcado directo puede ser: "
+
+msgid "Default"
+msgstr "Por defecto"
+
+msgid "Timeout"
+msgstr "Tiempo de espera"
+
+msgid "Amount of time to be considered a timeout"
+msgstr "Tiempo requerido para considerarse exceso de tiempo"
+
+msgid "Invalid Retries"
+msgstr "Reintentos Inválidos"
+
+msgid ""
+"Number of times to retry when receiving an invalid/unmatched response from "
+"the caller"
+msgstr ""
+"Cantidad de veces a reintentar cuando se recibe una opción inválida por parte del usuario"
+
+msgid "Invalid Retry Recording"
+msgstr "Grabación de reintento inválido"
+
+msgid ""
+"Prompt to be played when an invalid/unmatched response is received, before "
+"prompting the caller to try again"
+msgstr ""
+"Instrucción a reproducir cuando se recibe una opción inválida, antes de "
+"solicitarle al usuario que intente nuevamente"
+
+msgid "Invalid Recording"
+msgstr "Grabación opción inválida"
+
+msgid ""
+"Prompt to be played before sending the caller to an alternate destination "
+"due to the caller pressing 0 or receiving the maximum amount of invalid/"
+"unmatched responses (as determined by Invalid Retries)"
+msgstr ""
+"Instrucción a reproducir antes de enviar al usuario al destino alternativo "
+"debido a que haya marcado 0 o alcanzado la máxima cantidad de intentos "
+"inválidos (como se determina en Reintentos Inválidos)"
+
+msgid "Invalid Destination"
+msgstr "Destino Inválido"
+
+msgid "Destination to send the call to after Invalid Recording is played."
+msgstr "Destino al cuál enviar al usuario luego de que se reproduce el anuncio de opción inválida"
+
+msgid "After playing the Invalid Retry Recording the system will replay the main IVR Announcement"
+msgstr "Luego de reproducir el mensaje de opción inválida el sistema repitirá el anuncio principal"
+
+msgid "Check this box to have this option return to a parent IVR if it was called from a parent IVR. If not, it will go to the chosen destination.<br><br>The return path will be to any IVR that was in the call path prior to this IVR which could lead to strange results if there was an IVR called in the call path but not immediately before this"
+msgstr "Marque este casillero para retornar al IVR padre si es que se llegó aquí desde otro IVR. Si no, irá al destino seleccionado.<br><br>El regreso se hará a cualquier IVR que haya sido ejecutado previamente a este, lo que puede llevar a resultados extraños si ese IVR previo no se ejecuto inmediatamente antes, sino más atrás en el flujo de la llamada."
+
+msgid "Prompt to be played when a timeout occurs, before prompting the caller to try again"
+msgstr "Instrucción a reproducir cuando se excede el tiempo máximo, antes de instruir al usuario que intente nuevamente"
+
+msgid "After playing the Timeout Retry Recording the system will replay the main IVR Announcement"
+msgstr "Luego de reproducir el mensaje de reintentar por tiempo excedido, el sistema volverá a reproducir el anuncio principal del IVR"
+
+msgid "Destination to send the call to after Timeout Recording is played."
+msgstr "Destino a enviar al usuario luego de que se reproduzca el mensaje de tiempo excedido."
+
+msgid "Any digit selection will be saved in the IVR_DIGIT_PRESSED chanel variable"
+msgstr "Cualquier selección será guardada en la variable de canal IVR_DIGIT_PRESSED"
+
+msgid "Timeout Retries"
+msgstr "Reintentos Tiempo Excedido"
+
+msgid "Timeout Retry Recording"
+msgstr "Grabación Reintento por Tiempo Excedido"
+
+msgid "Timeout Recording"
+msgstr "Grabación por Tiempo Excedido"
+
+msgid "Timeout Destination"
+msgstr "Destino Tiempo Excedido"
+
+msgid "Return to IVR after VM"
+msgstr "Retornar al IVR luego de Buzón de Voz"
+
+msgid ""
+"If checked, upon exiting voicemail a caller will be returned to this IVR if "
+"they got a users voicemail"
+msgstr ""
+"Si se marca, el usuario retornará a este IVR luego de dejar un mensaje en un buzón de voz."
+
+msgid "IVR Entries"
+msgstr "Entradas del IVR"
+
+msgid "Ext"
+msgstr ""
+
+msgid "Destination"
+msgstr "Destino"
+
+msgid "Return"
+msgstr "Retorno"
+
+msgid "Return to IVR"
+msgstr "Volver al IVR"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+#, php-format
+msgid "IVR: %s / Option: %s"
+msgstr "IVR: %s / Opción: %s"
+
+#, php-format
+msgid "IVR: %s"
+msgstr "IVR: %s"
+
+msgid "Checking if announcements need migration.."
+msgstr "Comprobando si los anuncios necesitan ser migrados..."
+
+msgid "migrating"
+msgstr "migrando"
+
+msgid "adding announcement_id field.."
+msgstr "Añadiendo campo announcement_id..."
+
+msgid "fatal error"
+msgstr "error fatal"
+
+msgid "ok"
+msgstr "ok"
+
+msgid "migrate to recording ids.."
+msgstr "Migrar a identificadores de grabación..."
+
+#, php-format
+msgid "migrated %s entries"
+msgstr "Migrados %s elementos"
+
+msgid "dropping announcement field.."
+msgstr "Eliminando campo de anuncio..."
+
+msgid "no announcement field???"
+msgstr "No hay campo de anuncio."
+
+msgid "already migrated"
+msgstr "Ya migrado."
+
+msgid "Checking for timeout_id.."
+msgstr "Comprobando campo timeout_id..."
+
+msgid "added"
+msgstr "Añadido"
+
+msgid "not needed"
+msgstr "No es necesario"
+
+msgid "Checking for invalid_id.."
+msgstr "Comprobando campo invalid_id..."
+
+msgid "Checking for retvm.."
+msgstr "Comprobando campo retvm..."
+
+#, php-format
+msgid ""
+"There are %s IVRs that have the legacy Directory dialing enabled. This has "
+"been deprecated and will be removed from future releases. You should convert "
+"your IVRs to use the Directory module for this functionality and assign an "
+"IVR destination to a desired Directory. You can install the Directory module "
+"from the Online Module Repository"
+msgstr ""
+"Hay %s IVRs que tienen la opción antigua de marcado de directorio activado. Esta "
+"función ha sido deprecada y será eliminada en el futuro. Debe convertir esos IVRs "
+"para usar el módulo de Directorio en su lugar."
+
+#, php-format
+msgid "Deprecated Directory used by %s IVRs"
+msgstr "Directorio Deprecado en uso por %s IVRs"
+
+msgid "posting notice about deprecated functionality"
+msgstr ""
+
+msgid "IVR"
+msgstr ""
+
+msgid "Applications"
+msgstr "Aplicaciones"
+
+msgid ""
+"Creates Digital Receptionist (aka Auto-Attendant, aka Interactive Voice "
+"Response) menus. These can be used to send callers to different locations "
+"(eg, Press 1 for sales) and/or allow direct-dialing of extension numbers."
+msgstr ""
+"Crea menúes interactivos de voz (Recepcionista Digital). Estos se pueden "
+"usar para enviar a los usuarios a diferentes destinos en base a su selección "
+"(ej, Pulse 1 para ventas) o bien para permitir marcado directo a extensiones."
+
+#~ msgid ""
+#~ "There is a problem with install.sql, cannot re-create databases. Contact "
+#~ "support\n"
+#~ msgstr ""
+#~ "Ha habido un problema con la instalación de la base de datos. No se pudo "
+#~ "recrear la base de datos. Contacte con el soporte.\n"
+
+#~ msgid "Digital Receptionist"
+#~ msgstr "Recepcionista digital"
+
+#~ msgid "Instructions"
+#~ msgstr "Instrucciones"
+
+#~ msgid ""
+#~ "You use the Digital Receptionist to make IVR's, Interactive Voice "
+#~ "Response systems."
+#~ msgstr ""
+#~ "Use la recepcionista digital para crear sistemas menús de voz (IVR, "
+#~ "Interactive Voice Response)."
+
+#~ msgid ""
+#~ "When creating a menu option, apart from the standard options of 0-9,* and "
+#~ "#, you can also use 'i' and 't' destinations."
+#~ msgstr ""
+#~ "Cuando crea una opción del menú, además de las opciones estándares "
+#~ "(números del 0 al 9 y los símbolos '*' y '#'), también dispone de las "
+#~ "opciones 'i' (opción no válida) y 't' (tiempo de espera agotado)."
+
+#~ msgid ""
+#~ "'i' is used when the caller pushes an invalid button, and 't' is used "
+#~ "when there is no response."
+#~ msgstr ""
+#~ "Se usa la opción 'i' cuando el llamante pulsa una tecla no válida, y 't' "
+#~ "cuando no hay respuesta por parte del usuario."
+
+#~ msgid ""
+#~ "If those options aren't supplied, the default 't' is to replay the menu "
+#~ "three times and then hang up,"
+#~ msgstr ""
+#~ "Si no se especifican estas opciones, la opción por defecto para 't' es la "
+#~ "de repetir el mensaje tres veces y colgar después;"
+
+#~ msgid ""
+#~ "and the default 'i' is to say 'Invalid option, please try again' and "
+#~ "replay the menu."
+#~ msgstr ""
+#~ "la opción por defecto para 'i' es decir la locución de 'Opción no "
+#~ "válida', y repetir el menú."
+
+#~ msgid "After three invalid attempts, the line is hung up."
+#~ msgstr "Tras tres intentos no válidos, la llamada se cuelga."
+
+#~ msgid "Edit Menu"
+#~ msgstr "Modificar menú"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid ""
+#~ "This IVR is being used by the following Queues, providing an ability for "
+#~ "callers to hear this Queue's announcement periodically and giving callers "
+#~ "an option to break out of the queue into this IVR's menu options. This "
+#~ "queue can not be deleted when being used in this mode"
+#~ msgstr ""
+#~ "Este IVR está siendo usado por la siguiente cola, ofreciendo a los "
+#~ "llamantes escuchar el anuncio de la cola periódicamente, y dando a los "
+#~ "llamantes la posibilidad de salir de la cola. Esta cola no puede ser "
+#~ "eliminada mientras se esté usando en este modo."
+
+#~ msgid "Change Name"
+#~ msgstr "Cambiar nombre"
+
+#~ msgid "This changes the short name, visible on the right, of this IVR"
+#~ msgstr "Esto cambia el nombre corto, visible a la derecha, de este IVR."
+
+#~ msgid ""
+#~ "Message to be played to the caller. To add additional recordings please "
+#~ "use the \"System Recordings\" MENU to the left"
+#~ msgstr ""
+#~ "Mensaje que se reproducirá al llamante. Para añadir grabaciones "
+#~ "adicionales, por favor, use la opción 'Grabaciones del sistema' del menú "
+#~ "de la izquierda."
+
+#~ msgid ""
+#~ "Message to be played to the caller.<br><br>You must install and enable "
+#~ "the \"Systems Recordings\" Module to edit this option"
+#~ msgstr ""
+#~ "Mensaje que será reproducido al llamante.<br/><br/>Debe instalar y "
+#~ "habilitar el módulo de \"Grabaciones del sistema\" para editar esta "
+#~ "opción."
+
+#~ msgid ""
+#~ "The amount of time (in seconds) before the 't' option, if specified, is "
+#~ "used"
+#~ msgstr ""
+#~ "La cantidad de tiempo, en segundos, antes de que se cumpla la opción 't' "
+#~ "que se usará si está especificada en el menú."
+
+#~ msgid "Enable Directory"
+#~ msgstr "Habilitar directorio"
+
+#~ msgid "Directory Context"
+#~ msgstr "Contexto del directorio"
+
+#~ msgid ""
+#~ "When # is selected, this is the voicemail directory context that is used"
+#~ msgstr ""
+#~ "Cuando se pulse la tecla '#', este es el contexto del directorio del "
+#~ "buzón de voz que se usará."
+
+#~ msgid "Enable Direct Dial"
+#~ msgstr "Habilitar marcación directa"
+
+#~ msgid "Let callers into the IVR dial an extension directly"
+#~ msgstr ""
+#~ "Permitir a los llamantes que hayan accedido al IVR marcar una extensión "
+#~ "directamente."
+
+#~ msgid "Invalid Message"
+#~ msgstr "Mensaje de 'Opción no válida'"
+
+#~ msgid "Increase Options"
+#~ msgstr "Incrementar opciones"
+
+#~ msgid "Decrease Options"
+#~ msgstr "Disminuir opciones"
+
+#~ msgid "Invalid option"
+#~ msgstr "Opción no válida"
+
+msgid "Spoken"
+msgstr "Hablado"
+
+msgid "Submit"
+msgstr "Enviar cambios"
+
+msgid "Add a new IVR"
+msgstr "Añadir nuevo IVR"
+
+msgid "Append Announcement on Invalid"
+msgstr "Repetir Anuncio por opción Inválida"
+
+msgid "Append Announcement on Timeout"
+msgstr "Repetir Anuncio por tiempo excedido"
+
+msgid "Return on Invalid"
+msgstr "Retornar por opción Inválida"
+
+msgid "Return on Timeout"
+msgstr "Retornar por tiempo excedido"
+
+msgid "digits pressed"
+msgstr "dígitos presionados"

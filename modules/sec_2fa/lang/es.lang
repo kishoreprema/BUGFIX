@@ -1,0 +1,33 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Issabel version 4.0                                                  |
+  | http://www.issabel.org                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2019 Issabel Guru                                      |
+  +----------------------------------------------------------------------+
+  $Id: en.lang,v 1.0 2019-12-19 02:12:12 Nicolas Gudino nicolas@issabel.guru Exp $ 
+*/
+
+
+global $arrLangModule;
+$arrLangModule=array(
+"To configure two factor authentication for the current user, use an authenticator app in your smartphone (Google Authenticator, Authy, etc) and scan the following code" => "Para configurar la autenticación de dos factores para el usuario actual, use una app de autenticación en su smartphone (Google Authenticator, Authy, etc) y escanee el siguiente código",
+"Once scanned, you will be shown an authenticator code, enter it below to validate the code and enable two factor auth for this user."=>"Una vez escaneado, se le presentará un código de autenticación. Ingreselo en el casillero de abajo para validar el código y activar la autenticación de dos factores para este usuario.",
+"Two factor authentication is now disabled for user"=>"La autenticación de dos factores ha sido desactivada para el usuario",
+"There was a problem disabling two factor authentication for user"=>"Hubo un problema al intentar desactivar la autenticación de dos factores para el usuario",
+"Code Validated. Two factor authentication is now enabled for user"=>"Código Validado. La autenticación de dos factores está ahora activada para el usuario",
+"There was a problem trying to enable two factor authentication for user"=>"Hubo un problema al intentar activar la autenticación de dos factores para el usuario",
+"You already have two factor authentication configured, if you want to disable it, click the Disable button below"=>"Ya está configurada la autenticación de dos factores para este usuario, si desea desactivarla, pulse el botón de abajo",
+"Disable Two Factor Authentication"=>"Desactivar Autenticación de Dos Factores",
+"Validate"=>"Validar",
+"Code"=>"Código",
+"Your hosts time seems to be off. Please ensure you have the time set correctly"=>"La hora de su servidor no es correcta. Asegúrese de ponerlo en hora correcta.",
+"Wrong code, try again"=>"Código incorrecto, pruebe nuevamente",
+"is licensed under" => "esta licenciado bajo",
+"This module requires an Issabel Network subscription"=>"Este módulo requiere una suscripción a Issabel Network",
+"Get your subscription from"=>"Obtenga su suscripción",
+"here"=>"aquí"
+);
+?>

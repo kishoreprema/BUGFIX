@@ -1,0 +1,28 @@
+<module>
+        <rawname>tts</rawname>
+        <repo>standard</repo>
+        <name>Text to Speech</name>
+        <version>2.11.1.0</version>
+        <category>Applications</category>
+        <embedcategory>Internal Options &amp; Configuration</embedcategory>
+        <publisher>Issabel Foundation</publisher>
+        <license>GPLv3+</license>
+        <licenselink>http://www.gnu.org/licenses/gpl-3.0.txt</licenselink>
+        <description>
+            Use a text to speech engine to convert text into computed generated spoken voice
+        </description>
+        <menuitems>
+                <tts>Text to Speech</tts>
+                <ttsadmin>Text to Speech Engines</ttsadmin>
+        </menuitems>
+        <changelog>
+                *2.11.1.0*  Initial Release
+        </changelog>
+        <depends>
+                <version>2.5.0</version>
+        </depends>
+        <supported>
+                <version>2.10</version>
+        </supported>
+        <location>release/2.11/tts-2.11.1.0.tgz</location>
+</module>

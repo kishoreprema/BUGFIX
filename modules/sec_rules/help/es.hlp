@@ -1,0 +1,45 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="/themes/{$THEMENAME}/styles.css">
+        <link rel="stylesheet" href="/themes/{$THEMENAME}/help.css">
+    </header>
+    <body>
+        <h1>{$node_name}</h1>
+	<p>La opción "Reglas del Cortafuegos" permite controlar el flujo de tráfico tanto para envío como recepción de paquetes en el servidor Issabel.</p>
+        <div class="hlp_figures"><img src="../modules/{$node_id}/images/es_hlp_firewallrules1.png" border="0" />
+        <p>Figura 1</p></div>
+        <br />
+	<p>Para proteger su sistema, debe activar el servicio en su servidor pulsando el botón "Activar Cortafuegos". Desde el módulo usted puede crear, editar, eliminar y activar o desactivar reglas usando los respectivos botones, o reordenar las mismas utilizando arrastrar y soltar.</p>
+	<p>El orden de evaluación de reglas es de arriba hacia abajo, y la primera que coincida en la lista será ejecutada, descartando las siguientes evaluaciones. Por lo tanto el orden es extremadamente importante. Si por caso crea una regla que permita el tráfico desde cualquier parte hacia cualquier otra, y coloca esta regla en primer lugar, entonces toda regla subsiguiente no será siquiera considerada.</p>
+	<p>Es importante destacar también que las reglas geolocalizadas evalúan siempre en primer orden, antes que las reglas regulares. Por lo tanto si tiene una regla de GeoIP que deniega un continente, y luego tienen reglas individuales que permiten tráfico de una determinada dirección IP de dicho continente, esta última no se evaluará ya que GeoIP evalúa en primer lugar. Para estos casos puede usar la opción de lista blanca, o bien crear otra regla GeoIP con origen la dirección IP que desee permitir, y aquí si colocar esta regla por encima que la que deniega el continente entero.</p>
+        <div class="hlp_figures"><img src="../modules/{$node_id}/images/es_hlp_firewallrules2.png" border="0" />
+        <p>Figura 2</p></div>
+        <br />
+	<p>Cada vez que cree o modifique una regla usted debe de hacer click en el botón "Aplicar Cambios" que aparecerá en la parte superior. Si no realiza esta acción los cambios no tendrán efecto en el sistema.</p>
+        <div class="hlp_figures"><img src="../modules/{$node_id}/images/es_hlp_firewallrules_save.png" border="0" />
+        <p>Figura 3</p></div>
+        <br />
+	<h2>Añadir nueva regla</h2>
+	<p>Para añadir una regla haga click en el botón "Nueva Regla" (ver figura 2) y llene el formulario que aparecerá en pantalla. El formulario puede variar dependiendo de los parámetros que seleccione en la opción Tráfico y Protocolo (ver figura 4).</p>      
+        <div class="hlp_figures"><img src="../modules/{$node_id}/images/es_hlp_firewallrules4.png" border="0" />
+        <p>Figura 4</p></div>
+        <br />
+	<p>Los puertos usados cuando selecciona los protocolos TCP, UDP, ICMP e IP son obtenidos del módulo "Definir Puertos" ubicado debajo de este. Antes de usar un puerto asegúrese de que está previamente definido.</p>
+	<p>En los campos Dirección Origen y Dirección Destino usted debe ingresar la dirección IP con formato <i>x.x.x.x/y</i>, donde <i>y</i> es la máscara de red y debe ser un número entre 0 y 32. La dirección IP predeterminada (0.0.0.0) representa cualquier red. Para ingresar una dirección IP específica deje la máscara de red en blanco.</p>
+	<p>Una vez creada la nueva regla haga click en el botón "Guardar". Asegúrese de aplicar los cambios también en la ventana principal para que surtan efecto.</p>
+	<br />       
+	<h2>Editar una Regla</h2>
+	<p>Para editar una regla existente haga click en el ícono en forma de libreta color azul que corresponde a la regla.</p>        
+        <div class="hlp_figures"><img src="../modules/{$node_id}/images/es_hlp_firewallrules_edit.png" border="0" />
+        <p>Figura 5</p></div>
+	<h2>Eliminar una Regla</h2>
+	<p>Para eliminar una regla determinada primero selecciónela y haga click en el botón "Borrar". Asegúrese de aplicar los cambios para que surta efecto.</p>        
+        <br />
+	<h2>Reordenar las Reglas</h2>
+	<p>Usted puede modificar el orden de la reglas arrastrando y soltando las mismas con el ratón. Luego de ordenar reglas, deberá aplicar los cambios para que surta efecto.</p>         
+	<br />
+	<h2>Activar / Desactivar una Regla</h2>
+	<p>Usted puede Activar o Desactivar una regla haciendo click en el ícono de interruptor correspondiente a cada regla. Cuando el interruptor está en verde la regla está activada y cuando está en gris la regla esta desactivada. Esta acción también requiere aplicar los cambios para que surta efecto.</p>
+<br />
+    </body>
+</html>

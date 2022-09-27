@@ -1,0 +1,33 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Issabel version 4.0                                                  |
+  | http://www.issabel.org                                               |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2019 Issabel Guru                                      |
+  +----------------------------------------------------------------------+
+  $Id: en.lang,v 1.0 2019-12-19 02:12:12 Nicolas Gudino nicolas@issabel.guru Exp $ 
+*/
+
+
+global $arrLangModule;
+$arrLangModule=array(
+"To configure two factor authentication for the current user, use an authenticator app in your phone (Google Authenticator, Authy, etc) and scan the following code" => "To configure two factor authentication for the current user, use an authenticator app in your phone (Google Authenticator, Authy, etc) and scan the following code",
+"Once scanned, you will be shown an authenticator code, enter it below to validate the code and enable two factor auth for this user."=>"Once scanned, you will be shown an authenticator code, enter it below to validate the code and enable two factor auth for this user.",
+"Two factor authentication is now disabled for user"=>"Two factor authentication is now disabled for user",
+"There was a problem disabling two factor authentication for user"=>"There was a problem disabling two factor authentication for user",
+"Code Validated. Two factor authentication is now enabled for user"=>"Code Validated. Two factor authentication is now enabled for user",
+"There was a problem trying to enable two factor authentication for user"=>"There was a problem trying to enable two factor authentication for user",
+"You already have two factor authentication configured, if you want to disable it, click the Disable button below"=>"You already have two factor authentication configured, if you want to disable it, click the Disable button below",
+"Disable Two Factor Authentication"=>"Disable Two Factor Authentication",
+"Validate"=>"Validate",
+"Code"=>"Code",
+"Your hosts time seems to be off. Please ensure you have the time set correctly"=>"Your hosts time seems to be off. Please ensure you have the time set correctly",
+"Wrong code, try again"=>"Wrong code, try again",
+"is licensed under" => "is licensed under",
+"This module requires an Issabel Network subscription"=>"This module requires an Issabel Network subscription",
+"Get your subscription from"=>"Get your subscription from",
+"here"=>"here"
+);
+?>

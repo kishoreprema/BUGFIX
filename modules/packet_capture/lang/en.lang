@@ -1,0 +1,33 @@
+<?php
+  /* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Issabel version 4.0                                                  |
+  | http://issabel.guru                                                  |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2019 Issabel Guru                                      |
+  +----------------------------------------------------------------------+
+  $Id: en.lang,v 1.1 2018-05-11 07:05:51 Issabel support@issabel.com Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+"Packet Capture" => "Packet Capture",
+"Timeout" => "Timeout",
+"Description" => "Description",
+"Interface" => "Interface",
+"Host" => "Host",
+"Capture"=>"Capture",
+"Capture List"=>"Capture List",
+"File"=>"File",
+"Date"=>"Date",
+"Error when deleting capture file"=>"Error when deleting capture file",
+"Go Back"=>"Go Back",
+"Call Flow"=>"Call Flow",
+"Please wait until page reloads"=>"Please wait until page reloads",
+"There are no capture files selected"=>"There are no capture files selected",
+"Are you sure you wish to delete capture(s)?"=>"Are you sure you wish to delete capture(s)?",
+"is licensed under" => "is licensed under",
+"This module requires an Issabel Network subscription"=>"This module requires an Issabel Network subscription",
+"Get your subscription from"=>"Get your subscription from",
+"here"=>"here"
+);
+?>

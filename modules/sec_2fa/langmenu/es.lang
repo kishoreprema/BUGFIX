@@ -1,0 +1,6 @@
+<?php
+$arrLangMenu=array(
+"Two Factor Authentication" => "Autenticación de 2 factores",
+"Code"=>"Código"
+);
+

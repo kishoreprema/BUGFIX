@@ -1,0 +1,26 @@
+<?php
+/* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Issabel version 4.0                                                  |
+  | http://issabel.guru                                                  |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2019 Issabel Guru                                      |
+  +----------------------------------------------------------------------+
+                                                                        */
+global $arrLangModule;
+$arrLangModule=array(
+"Request UPnP port forward to a capable device"=>"Request UPnP port forward to a capable device",
+"Local Port"=>"Local Port",
+"External Port"=>"External Port",
+"Protocol"=>"Protocol",
+"Test"=>"Test",
+"Add"=>"Add",
+"Delete"=>"Delete",
+"Results"=>"Resultados",
+"is licensed under" => "is licensed under",
+"This module requires an Issabel Network subscription"=>"This module requires an Issabel Network subscription",
+"Get your subscription from"=>"Get your subscription from",
+"here"=>"here"
+);
+?>

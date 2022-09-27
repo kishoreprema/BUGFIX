@@ -1,0 +1,37 @@
+<?php
+  /* vim: set expandtab tabstop=4 softtabstop=4 shiftwidth=4:
+  Codificación: UTF-8
+  +----------------------------------------------------------------------+
+  | Issabel version 4.0                                                  |
+  | http://issabel.guru                                                  |
+  +----------------------------------------------------------------------+
+  | Copyright (c) 2019 Issabel Guru                                      |
+  +----------------------------------------------------------------------+
+  $Id: en.lang,v 1.1 2019-12-03 03:12:28 German Venturino german@issabel.com Exp $ */
+global $arrLangModule;
+$arrLangModule=array(
+"Theme Designer" => "Theme Designer",
+"Login Logo" => "Login Logo",
+"Login Color 1" => "Login Color 1",
+"Login Color 2" => "Login Color 2",
+"Menu Logo" => "Menu Logo",
+"Menu Color 1" => "Menu Color 1",
+"Menu Color 2" => "Menu Color 2",
+"Menu Lines Color" => "Menu Lines Color",
+"Create Theme" => "Create Theme",
+"Name" => "Name",
+"Option" => "Option",
+"View" => "View",
+"Theme name" => "Theme name",
+"Are you sure you wish to delete the theme(s)?" => "Are you sure you wish to delete the theme(s)?",
+"Deleted successfully" => "Deleted successfully",
+"Successfully saved" => "Successfully saved",
+"There is already a theme with that name, please choose another." => "There is already a theme with that name, please choose another.",
+"Error getting data" => "Error getting data",
+"is licensed under" => "is licensed under",
+"This module requires an Issabel Network subscription"=>"This module requires an Issabel Network subscription",
+"You cannot delete the active theme"=>"You cannot delete the active theme",
+"Get your subscription from"=>"Get your subscription from",
+"here"=>"here"
+);
+?>
