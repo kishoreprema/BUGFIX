@@ -59,7 +59,10 @@ function appletRefresh(appletwindow_content)
 		if (respuesta.status == 'error') {
 			fullcontent.text(respuesta.message);
 		} else {
-			fullcontent.html(respuesta.html);
+			//fullcontent.html(respuesta.html);
+			let html = respuesta.html;
+			ctrl window target.innerHTMl = html
+			ctrl.window target.innerHTMl = dompurify.sanitize(html)
 		}
 		fullcontent.show();
 	});
